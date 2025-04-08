@@ -21,7 +21,6 @@ function isEvenOrOdd(num) {
 }
 
 // Test Challenge 2
-const isEvenorOdd = num => num % 2 === 0;
 console.log(isEvenOrOdd(10)); // Expected: true
 console.log(isEvenOrOdd(5));  // Expected: false
 
@@ -44,17 +43,13 @@ console.log(celsiusToFahrenheit(0));  // Expected: 32
 // Challenge 4: Find Maximum Number in Array
 // Goal: Find the largest number in an array.
 // Error: Incorrect maximum number returned.
-const arr = [14, 25, 8, 97, 63];
+const arr = [1, 2, 3, 4, 5];
 function findMaxNumber(arr) {
     return Math.max(...arr);
 }
 console.log(Math.max(...arr));
 
 // Test Challenge 4
-const arr = [1, 2, 3, 4, 5]
-function findMaxNumber(arr){
-  return Math.max(...arr);
-}
 console.log(findMaxNumber([1, 2, 3, 4, 5])); // Expected: 5
 
 /////////////////////////////////////////////////
