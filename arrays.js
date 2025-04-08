@@ -1,6 +1,3 @@
-// Challenge 1: Find Largest Number
-// Goal: Find the largest number in an array.
-// Error: Incorrect largest number returned.
 const arr = [3, 6, 2, 8, 4];
 function findLargestNumber(arr) {
     return Math.max(...arr);
@@ -10,10 +7,7 @@ function findLargestNumber(arr) {
 
   ////////////////////////////////////////////
   
-  // Challenge 2: Remove Duplicates
-  // Goal: Remove duplicate elements from an array.
-  // Error: Array with duplicates or incorrect unique elements.
-  function removeDuplicates(arr) {
+function removeDuplicates(arr) {
     return Array.from(new Set(arr));
 }
   
@@ -21,10 +15,7 @@ function findLargestNumber(arr) {
 
   ///////////////////////////////////////////////
   
-  // Challenge 3: Filter Even Numbers
-  // Goal: Filter an array to include only even numbers.
-  // Error: Array with incorrect even numbers or missing even numbers.
-  function filterEvenNumbers(arr) {
+function filterEvenNumbers(arr) {
     return arr.filter(num => num % 2 === 0);
 }
   
